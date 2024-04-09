@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  #login, #scholarshipPrograms, #applyForm, #inquireForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(19, 11, 11);
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #programsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #programsList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #programsList li:last-child {
+    border-bottom: none;
+  }
+  
+  #programsList li:hover {
+    background-color: #f0f0f0;
+  }
+  
